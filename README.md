@@ -82,8 +82,27 @@ variables.tf — Stores environment and network variables.
 main.tf — Creates a private AKS cluster using the defined variables.
 
 
-🏗 Architecture Diagram
+**🏗 Architecture Diagram**
 
 Below is a high-level system architecture showing both the Public and Private AKS clusters, created via the Azure Portal and Terraform respectively.
 
 <img width="1069" height="601" alt="diagram-export-16-10-2025-13_28_10" src="https://github.com/user-attachments/assets/e89e08d3-71ef-4c76-9181-701fae3d2774" />
+
+**🧾 Output Verification**
+
+To confirm successful deployment:
+
+kubectl get nodes
+kubectl get pods --all-namespaces
+
+**🧑‍💻 Author**
+
+Syed Shahmeer
+Cloud Engineer | DevOps | Kubernetes Enthusiast
+**📫 Connect on LinkedIn**
+https://www.linkedin.com/in/syed-shahmeer-1984aa221/
+
+**📘 Reference Links**
+
+Azure AKS Documentation
+Terraform Azure Provider
