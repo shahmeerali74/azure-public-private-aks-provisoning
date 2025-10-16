@@ -61,6 +61,7 @@ kubectl get nodes
 Folder structure
 
 private-aks-cluster-tf/
+
 │
 
 ├── providers.tf
