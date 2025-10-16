@@ -54,3 +54,36 @@ az login
 az aks get-credentials --resource-group <rg-name> --name <cluster-name>
 
 kubectl get nodes
+
+
+**🔒 Private AKS Cluster (Terraform)**
+
+Folder structure
+
+private-aks-cluster-tf/
+│
+├── providers.tf
+├── variables.tf
+└── main.tf
+
+
+**Initialize and Deploy**
+
+terraform init
+terraform plan -out tfplan
+terraform apply tfplan
+
+**🧩 Terraform Configuration Overview**
+
+providers.tf — Defines Azure provider and subscription.
+
+variables.tf — Stores environment and network variables.
+
+main.tf — Creates a private AKS cluster using the defined variables.
+
+
+🏗 Architecture Diagram
+
+Below is a high-level system architecture showing both the Public and Private AKS clusters, created via the Azure Portal and Terraform respectively.
+
+<img width="1069" height="601" alt="diagram-export-16-10-2025-13_28_10" src="https://github.com/user-attachments/assets/e89e08d3-71ef-4c76-9181-701fae3d2774" />
