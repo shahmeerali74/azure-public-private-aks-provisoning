@@ -74,7 +74,9 @@ private-aks-cluster-tf/
 **Initialize and Deploy**
 
 terraform init
+
 terraform plan -out tfplan
+
 terraform apply tfplan
 
 **🧩 Terraform Configuration Overview**
@@ -97,11 +99,14 @@ Below is a high-level system architecture showing both the Public and Private AK
 To confirm successful deployment:
 
 kubectl get nodes
+
 kubectl get pods --all-namespaces
 
 **🧑‍💻 Author**
 
 Syed Shahmeer
+
 Cloud Engineer | DevOps | Kubernetes Enthusiast
+
 **📫 Connect on LinkedIn**
 https://www.linkedin.com/in/syed-shahmeer-1984aa221/
