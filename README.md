@@ -1,5 +1,7 @@
 **For detail overview read this medium article below**
+
 Medium | 
+
 **🚀 Creating and Configuring Kubernetes (AKS) Clusters in Azure**
 
 This repository demonstrates how to create both Public and Private Azure Kubernetes Service (AKS) clusters using the Azure Portal (UI) and Terraform.
