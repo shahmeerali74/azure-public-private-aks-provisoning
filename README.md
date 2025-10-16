@@ -1,8 +1,8 @@
-🚀 Creating and Configuring Kubernetes (AKS) Clusters in Azure
+**🚀 Creating and Configuring Kubernetes (AKS) Clusters in Azure**
 
 This repository demonstrates how to create both Public and Private Azure Kubernetes Service (AKS) clusters using the Azure Portal (UI) and Terraform.
 
-🧠 Overview
+**🧠 Overview**
 
 This project covers two deployment approaches:
 
@@ -13,7 +13,7 @@ Private AKS Cluster – created using Terraform scripts.
 It includes all configuration files, CLI commands, and steps to verify cluster connectivity.
 
 
-🧰 Prerequisites
+**🧰 Prerequisites**
 
 Before you begin, ensure the following resources are ready:
 
@@ -31,7 +31,7 @@ kubectl
 
 Terraform
 
-🌐 Public AKS Cluster (Azure Portal)
+**🌐 Public AKS Cluster (Azure Portal)**
 
 Steps:
 
@@ -47,7 +47,7 @@ Configure node pool (use default settings).
 
 Click Review + Create → Create.
 
-Verification
+**Verification**
 
 az login
 
