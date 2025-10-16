@@ -62,8 +62,11 @@ Folder structure
 
 private-aks-cluster-tf/
 │
+
 ├── providers.tf
+
 ├── variables.tf
+
 └── main.tf
 
 
@@ -101,8 +104,3 @@ Syed Shahmeer
 Cloud Engineer | DevOps | Kubernetes Enthusiast
 **📫 Connect on LinkedIn**
 https://www.linkedin.com/in/syed-shahmeer-1984aa221/
-
-**📘 Reference Links**
-
-Azure AKS Documentation
-Terraform Azure Provider
